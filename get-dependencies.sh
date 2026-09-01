@@ -10,6 +10,7 @@ pacman -Syu --noconfirm \
     kate         \
     qtkeychain-qt6 \
     kparts \
+    konsole \
     breeze \
     syntax-highlighting \
     qt6ct \
