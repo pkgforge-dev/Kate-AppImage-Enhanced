@@ -14,11 +14,8 @@ export STARTUPWMCLASS=org.kde.kate
 export ALWAYS_SOFTWARE=1
 export DEPLOY_KF=1
 
-wget -O quick-sharun "https://raw.githubusercontent.com/Samueru-sama/Anylinux-AppImages/refs/heads/main/useful-tools/quick-sharun.sh"
-chmod +x quick-sharun
-
 # Deploy dependencies
-./quick-sharun \
+quick-sharun \
   /usr/bin/kate \
   /usr/bin/konsole \
   /usr/bin/kwrite \
