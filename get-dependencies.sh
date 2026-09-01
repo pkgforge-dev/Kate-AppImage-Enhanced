@@ -10,8 +10,8 @@ pacman -Syu --noconfirm \
     kate         \
     qtkeychain-qt6 \
     kparts \
-    breeze \
     konsole \
+    breeze \
     syntax-highlighting \
     qt6ct \
     kvantum \
