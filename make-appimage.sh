@@ -11,7 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://invent.kde.org/utilities/kate/-/raw/master/apps/kate/icons/unix/256-apps-kate.png?ref_type=heads
 export DESKTOP=/usr/share/applications/org.kde.kate.desktop
 export STARTUPWMCLASS=org.kde.kate
-export ALWAYS_SOFTWARE=1
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 export DEPLOY_KF=1
 
 # Deploy dependencies
@@ -26,11 +26,8 @@ quick-sharun \
   /usr/share/katexmltools \
   /usr/share/org.kde.syntax-highlighting
 
-echo "##########################################################################"
-ls AppDir
 mkdir -p ./AppDir/share/applications
 cp /usr/share/applications/org.kde.kwrite.desktop ./AppDir/share/applications
-echo "##########################################################################"
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
