@@ -11,7 +11,6 @@ pacman -Syu --noconfirm \
     qtkeychain-qt6 \
     kparts \
     breeze \
-    konsole \
     syntax-highlighting \
     qt6ct \
     kvantum \
