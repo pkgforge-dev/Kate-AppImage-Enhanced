@@ -15,7 +15,8 @@ pacman -Syu --noconfirm \
     syntax-highlighting \
     qt6ct \
     kvantum \
-    lxqt-qtplugin
+    lxqt-qtplugin \
+    wget
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
