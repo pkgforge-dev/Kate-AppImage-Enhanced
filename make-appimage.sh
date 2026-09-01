@@ -14,7 +14,17 @@ export STARTUPWMCLASS=org.kde.kate
 export ALWAYS_SOFTWARE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/kate /usr/bin/konsole /usr/bin/kwrite /usr/bin/exec_inspect.sh /usr/lib/qt6/plugins/* /usr/lib/libKF6* /usr/share/kdevappwizard /usr/share/color-schemes /usr/share/kstyle /usr/share/zsh /usr/lib/qt6/qml/org/kde/syntaxhighlighting /usr/share/org.kde.syntax-highlighting
+quick-sharun \
+  /usr/bin/kate \
+  /usr/bin/konsole \
+  /usr/bin/kwrite \
+  /usr/bin/exec_inspect.sh \
+  /usr/share/kdevappwizard \
+  /usr/share/color-schemes \
+  /usr/share/kstyle \
+  /usr/share/zsh \
+  /usr/lib/qt6/qml/org/kde/syntaxhighlighting \
+  /usr/share/org.kde.syntax-highlighting
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
