@@ -23,6 +23,7 @@ quick-sharun \
   /usr/share/color-schemes \
   /usr/share/kstyle \
   /usr/share/zsh \
+  /usr/lib/qt6/plugins/kf6/ktexteditor \
   /usr/share/org.kde.syntax-highlighting
 
 # Turn AppDir into AppImage
