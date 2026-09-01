@@ -26,6 +26,12 @@ quick-sharun \
   /usr/share/katexmltools \
   /usr/share/org.kde.syntax-highlighting
 
+echo "##########################################################################"
+ls AppDir
+mkdir -p ./AppDir/share/applications
+cp /usr/share/org.kde.syntax-highlighting ./AppDir/share/applications
+echo "##########################################################################"
+
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
 
