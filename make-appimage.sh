@@ -12,9 +12,13 @@ export ICON=https://invent.kde.org/utilities/kate/-/raw/master/apps/kate/icons/u
 export DESKTOP=/usr/share/applications/org.kde.kate.desktop
 export STARTUPWMCLASS=org.kde.kate
 export ALWAYS_SOFTWARE=1
+export DEPLOY_KF=1
+
+wget -O quick-sharun "wget https://raw.githubusercontent.com/Samueru-sama/Anylinux-AppImages/refs/heads/main/useful-tools/quick-sharun.sh"
+chmod +x quick-sharun
 
 # Deploy dependencies
-quick-sharun \
+./quick-sharun \
   /usr/bin/kate \
   /usr/bin/konsole \
   /usr/bin/kwrite \
