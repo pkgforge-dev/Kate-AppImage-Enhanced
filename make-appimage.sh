@@ -17,7 +17,6 @@ export DEPLOY_KF=1
 # Deploy dependencies
 quick-sharun \
   /usr/bin/kate \
-  /usr/bin/konsole \
   /usr/bin/kwrite \
   /usr/bin/exec_inspect.sh \
   /usr/share/kdevappwizard \
