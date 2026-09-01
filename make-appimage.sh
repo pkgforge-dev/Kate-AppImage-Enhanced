@@ -28,8 +28,6 @@ chmod +x quick-sharun
   /usr/share/kstyle \
   /usr/share/kateproject \
   /usr/share/katexmltools \
-  /usr/share/zsh \
-  /usr/lib/qt6/plugins/kf6/ktexteditor \
   /usr/share/org.kde.syntax-highlighting \
   /usr/share/applications/org.kde.kwrite.desktop
 
