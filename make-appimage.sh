@@ -29,7 +29,7 @@ quick-sharun \
 echo "##########################################################################"
 ls AppDir
 mkdir -p ./AppDir/share/applications
-cp /usr/share/org.kde.syntax-highlighting ./AppDir/share/applications
+cp /usr/share/applications/org.kde.kwrite.desktop ./AppDir/share/applications
 echo "##########################################################################"
 
 # Turn AppDir into AppImage
